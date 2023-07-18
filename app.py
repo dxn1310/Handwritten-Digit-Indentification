@@ -5,9 +5,9 @@ import cv2
 import tensorflow as tf
 from PIL import Image
 
-# model = pickle.load(open('digitrecognizer.pkl', 'rb')) #using the saved model for predicting new handdrawn digit
+model = pickle.load(open('digitrecognizer.pkl', 'rb')) #using the saved model for predicting new handdrawn digit
 
-# st.write(f"{type(model)}")
+st.write(f"{type(model)}")
 st.write(""" # Hello """)
 st.markdown("<h1 style='text-align: center; color: white;'>Handwritten Digit Identification</h1>", unsafe_allow_html=True)
 # st.write(""" ##### Upload an image and please wait for a few seconds """)
